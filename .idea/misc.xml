@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/LG/AndroidStudioProjects/DreamRe2/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.112" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/DreamRe2/app/src/main/res/drawable/shape.xml" value="0.112" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/DreamRe2/app/src/main/res/drawable/shape_stick.xml" value="0.112" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/DreamRe2/app/src/main/res/layout/activity_main.xml" value="0.1674641148325359" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/DreamRe2/app/src/main/res/layout/activity_search_italy.xml" value="0.1" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/DreamRe2/app/src/main/res/layout/activity_search_japan.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/DreamRe2/app/src/main/res/layout/activity_search_korea.xml" value="0.2341485507246377" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/DreamRe2/app/src/main/res/layout/fragment_card.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/DreamRe2/app/src/main/res/layout/fragment_dashboard.xml" value="0.2341485507246377" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/DreamRe2/app/src/main/res/layout/fragment_home.xml" value="0.25" />
