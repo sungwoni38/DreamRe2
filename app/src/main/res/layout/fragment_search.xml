@@ -19,13 +19,12 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView_kor"
-        android:layout_width="130dp"
-        android:layout_height="160dp"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2">
 
         <LinearLayout
@@ -35,8 +34,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
                 android:src="@drawable/korea" />
 
             <TextView
@@ -44,15 +43,15 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/nanum_b"
                 android:text="한식"
-                android:textSize="25sp" />
+                android:textSize="23sp" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView_italy"
-        android:layout_width="130dp"
-        android:layout_height="160dp"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true"
@@ -67,8 +66,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
                 android:src="@drawable/italy" />
 
             <TextView
@@ -76,19 +75,18 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/nanum_b"
                 android:text="양식"
-                android:textSize="25sp" />
+                android:textSize="23sp" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView_jap"
-        android:layout_width="130dp"
-        android:layout_height="160dp"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline2">
 
@@ -99,8 +97,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
                 android:src="@drawable/japan" />
 
             <TextView
@@ -108,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/nanum_b"
                 android:text="일식"
-                android:textSize="25sp" />
+                android:textSize="23sp" />
 
         </LinearLayout>
 
@@ -116,24 +114,23 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView_chi"
-        android:layout_width="130dp"
-        android:layout_height="160dp"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline3">
 
         <LinearLayout
-            android:layout_width="114dp"
-            android:layout_height="147dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
                 android:src="@drawable/china" />
 
             <TextView
@@ -141,7 +138,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/nanum_b"
                 android:text="중식"
-                android:textSize="25sp" />
+                android:textSize="23sp" />
 
         </LinearLayout>
 
@@ -150,8 +147,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView_bunsik"
-        android:layout_width="130dp"
-        android:layout_height="160dp"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true"
@@ -166,8 +163,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
                 android:src="@drawable/bunsik" />
 
             <TextView
@@ -175,7 +172,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/nanum_b"
                 android:text="분식"
-                android:textSize="25sp" />
+                android:textSize="23sp" />
 
         </LinearLayout>
 
@@ -183,12 +180,11 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView_cafe"
-        android:layout_width="130dp"
-        android:layout_height="160dp"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline3">
 
@@ -199,8 +195,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
                 android:src="@drawable/drink" />
 
             <TextView
@@ -208,7 +204,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/nanum_b"
                 android:text="카페"
-                android:textSize="25sp" />
+                android:textSize="23sp" />
 
         </LinearLayout>
 
@@ -216,13 +212,12 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView_bread"
-        android:layout_width="130dp"
-        android:layout_height="160dp"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline4">
 
         <LinearLayout
@@ -232,8 +227,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
                 android:src="@drawable/bread" />
 
             <TextView
@@ -241,7 +236,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/nanum_b"
                 android:text="제과"
-                android:textSize="25sp" />
+                android:textSize="23sp" />
 
         </LinearLayout>
 
@@ -250,8 +245,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView_fastfood"
-        android:layout_width="130dp"
-        android:layout_height="160dp"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true"
@@ -266,8 +261,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
                 android:src="@drawable/fastfood" />
 
             <TextView
@@ -275,7 +270,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/nanum_b"
                 android:text="패스트푸드"
-                android:textSize="25sp" />
+                android:textSize="23sp" />
 
         </LinearLayout>
 
@@ -283,12 +278,11 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView_other"
-        android:layout_width="130dp"
-        android:layout_height="160dp"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline4">
 
@@ -299,8 +293,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
                 android:src="@drawable/shop" />
 
             <TextView
@@ -308,7 +302,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/nanum_b"
                 android:text="기타"
-                android:textSize="25sp" />
+                android:textSize="23sp" />
 
         </LinearLayout>
 
@@ -326,14 +320,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.41" />
+        app:layout_constraintGuide_percent="0.37" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.7" />
+        app:layout_constraintGuide_percent="0.62" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
