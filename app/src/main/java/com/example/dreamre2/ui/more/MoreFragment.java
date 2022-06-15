@@ -45,6 +45,25 @@ public class MoreFragment extends Fragment {
                 startActivity(intent02);
             }
         });
+
+        btn_call = view.findViewById(R.id.btn_call);
+        btn_call.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent03 = new Intent(getActivity(), MoreCallActivity.class);
+                intent03.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent03);
+            }
+        });
+        btn_setting = view.findViewById(R.id.btn_setting);
+        btn_setting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent04 = new Intent(getActivity(), MoreSettingActivity.class);
+                intent04.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent04);
+            }
+        });
         return view;
     }
 
