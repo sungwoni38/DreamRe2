@@ -1,5 +1,6 @@
 package com.example.dreamre2.ui.card;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -25,6 +26,8 @@ public class CardAddActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_add);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         text_card_ok = findViewById(R.id.text_card_ok);
         btn_check = findViewById(R.id.btn_check);

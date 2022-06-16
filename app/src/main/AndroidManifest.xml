@@ -2,8 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.dreamre2">
+
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,9 +13,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DreamRe2">
+        <activity
+            android:name=".ui.search.shop.SearchShopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.search.fastfood.SearchFastfoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.search.bread.SearchBreadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.search.china.SearchChinaActivity"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBxKQspOH1i-farKIaAE736KT73Tolz0f4" />
+
         <activity
             android:name=".ui.search.cafe.SearchCafeActivity"
             android:exported="false" />

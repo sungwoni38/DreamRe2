@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.search.china.SearchChinaActivity">
+    tools:context=".ui.search.fastfood.SearchFastfoodActivity">
     <Toolbar
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -24,14 +24,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="  중식"
+                android:text="  패스트푸드"
                 android:fontFamily="@font/nanum_b"
                 android:textSize="20sp"/>
         </LinearLayout>
     </Toolbar>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardview_china_1"
+        android:id="@+id/cardView_fastfood_1"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -53,14 +53,14 @@
                 android:weightSum="5">
 
                 <TextView
-                    android:id="@+id/txt_name_china_1"
+                    android:id="@+id/txt_name_fastfood_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="5"
                     android:paddingLeft="4dp"
                     android:paddingRight="4dp"
-                    android:text="황궁쟁반짜장약사도성반점"
+                    android:text="뉴욕버거목동점"
                     android:fontFamily="@font/nanum_b"
                     android:textSize="18sp"/>
 
@@ -89,28 +89,28 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txt_call_china_1"
+                android:id="@+id/txt_call_fastfood_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="4dp"
                 android:paddingRight="4dp"
-                android:text="052-293-1288"
+                android:text="02-2061-4276"
                 android:fontFamily="@font/nanum_b"/>
 
             <TextView
-                android:id="@+id/txt_add_china_1"
+                android:id="@+id/txt_add_fastfood_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="4dp"
                 android:paddingRight="4dp"
-                android:text="울산광역시 중구 약사동 596-6"
+                android:text="서울특별시 양천구 목동서로 170 1층"
                 android:fontFamily="@font/nanum_b" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardview_china_2"
+        android:id="@+id/cardview_fastfood_2"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -132,14 +132,14 @@
                 android:weightSum="5">
 
                 <TextView
-                    android:id="@+id/txt_name_china_2"
+                    android:id="@+id/txt_name_fastfood_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="5"
                     android:paddingLeft="4dp"
                     android:paddingRight="4dp"
-                    android:text="황궁쟁반짜장(옥뽕)"
+                    android:text="노브랜드버거 신정네거리점"
                     android:fontFamily="@font/nanum_b"
                     android:textSize="18sp"/>
 
@@ -168,28 +168,28 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txt_call_china_2"
+                android:id="@+id/txt_call_fastfood_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="4dp"
                 android:paddingRight="4dp"
-                android:text="052-224-0808"
+                android:text="02-2111-1111"
                 android:fontFamily="@font/nanum_b" />
 
             <TextView
-                android:id="@+id/txt_add_china_2"
+                android:id="@+id/txt_add_fastfood_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="4dp"
                 android:paddingRight="4dp"
-                android:text="울산광역시 중구 다운동 567-1"
+                android:text="서울특별시 양천구 중앙로 291 1층"
                 android:fontFamily="@font/nanum_b" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardview_china_3"
+        android:id="@+id/cardview_fastfood_3"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -211,14 +211,14 @@
                 android:weightSum="5">
 
                 <TextView
-                    android:id="@+id/txt_name_china_3"
+                    android:id="@+id/txt_name_fastfood_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="5"
                     android:paddingLeft="4dp"
                     android:paddingRight="4dp"
-                    android:text="황궁쟁반짜장"
+                    android:text="뉴소프트치킨"
                     android:fontFamily="@font/nanum_b"
                     android:textSize="18sp"/>
 
@@ -247,29 +247,29 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txt_call_china_3"
+                android:id="@+id/txt_call_fastfood_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="4dp"
                 android:paddingRight="4dp"
-                android:text="052-243-7941"
+                android:text="02-2634-8814"
                 android:fontFamily="@font/nanum_b" />
 
             <TextView
-                android:id="@+id/txt_add_china_3"
+                android:id="@+id/txt_add_fastfood_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="4dp"
                 android:paddingRight="4dp"
-                android:text="울산광역시 중구 우정동 274-1"
+                android:text="서울특별시 양천구 월정로 54 1층"
                 android:fontFamily="@font/nanum_b" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardview_china_4"
+        android:id="@+id/cardview_fastfood_4"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -291,14 +291,14 @@
                 android:weightSum="5">
 
                 <TextView
-                    android:id="@+id/txt_name_china_4"
+                    android:id="@+id/txt_name_fastfood_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="5"
                     android:paddingLeft="4dp"
                     android:paddingRight="4dp"
-                    android:text="만리향"
+                    android:text="뉴욕핫도그앤치킨"
                     android:fontFamily="@font/nanum_b"
                     android:textSize="18sp"/>
 
@@ -327,23 +327,23 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txt_call_china_4"
+                android:id="@+id/txt_call_fastfood_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="4dp"
                 android:paddingRight="4dp"
-                android:text="052-281-3131"
+                android:text="070-1117-1111"
                 android:fontFamily="@font/nanum_b"/>
 
             <TextView
-                android:id="@+id/txt_add_china_4"
+                android:id="@+id/txt_add_fastfood_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="4dp"
                 android:paddingRight="4dp"
-                android:text="울산광역시 북구 동대중앙로 38, 1층(호계동)"
+                android:text="서울특별시 양천구 목동중앙서로 42 1층 (목동)"
                 android:fontFamily="@font/nanum_b" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>

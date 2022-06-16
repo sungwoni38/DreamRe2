@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.search.korea.SearchKoreaActivity">
+    tools:context=".ui.search.cafe.SearchCafeActivity">
     <Toolbar
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -24,7 +24,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="  중식"
+                android:text="  카페"
                 android:fontFamily="@font/nanum_b"
                 android:textSize="20sp"/>
         </LinearLayout>
@@ -60,7 +60,7 @@
                     android:layout_weight="5"
                     android:paddingLeft="4dp"
                     android:paddingRight="4dp"
-                    android:text="황궁쟁반짜장약사도성반점"
+                    android:text="카페 블롱쉬"
                     android:fontFamily="@font/nanum_b"
                     android:textSize="18sp"/>
 
@@ -95,7 +95,7 @@
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="4dp"
                 android:paddingRight="4dp"
-                android:text="052-293-1288"
+                android:text="02-387-3292"
                 android:fontFamily="@font/nanum_b"/>
 
             <TextView
@@ -105,7 +105,7 @@
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="4dp"
                 android:paddingRight="4dp"
-                android:text="울산광역시 중구 약사동 596-6"
+                android:text="서울특별시 은평구 진관3로 15-45 , 1011동 상가106호 진관동"
                 android:fontFamily="@font/nanum_b" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -139,7 +139,7 @@
                     android:layout_weight="5"
                     android:paddingLeft="4dp"
                     android:paddingRight="4dp"
-                    android:text="황궁쟁반짜장(옥뽕)"
+                    android:text="감성 마카롱"
                     android:fontFamily="@font/nanum_b"
                     android:textSize="18sp"/>
 
@@ -174,7 +174,7 @@
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="4dp"
                 android:paddingRight="4dp"
-                android:text="052-224-0808"
+                android:text="02-1116-1111"
                 android:fontFamily="@font/nanum_b" />
 
             <TextView
@@ -184,169 +184,9 @@
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="4dp"
                 android:paddingRight="4dp"
-                android:text="울산광역시 중구 다운동 567-1"
+                android:text="서울특별시 강서구 곰달래로 61, 1층 (화곡동)"
                 android:fontFamily="@font/nanum_b" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardview_china_3"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        app:cardCornerRadius="4dp"
-        app:cardElevation="8dp">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="8dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="5">
-
-                <TextView
-                    android:id="@+id/txt_name_china_3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_weight="5"
-                    android:paddingLeft="4dp"
-                    android:paddingRight="4dp"
-                    android:text="황궁쟁반짜장"
-                    android:fontFamily="@font/nanum_b"
-                    android:textSize="18sp"/>
-
-                <RelativeLayout
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:layout_weight="1"
-                    android:gravity="center">
-                    <ImageView
-                        android:id="@+id/img_search_like3"
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:layout_weight="1"
-                        android:visibility="gone"
-                        android:src="@drawable/ic_baseline_star_24" />
-
-                    <ImageView
-                        android:id="@+id/img_search_like3_border"
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/ic_baseline_star_border_24" />
-
-                </RelativeLayout>
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/txt_call_china_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:paddingLeft="4dp"
-                android:paddingRight="4dp"
-                android:text="052-243-7941"
-                android:fontFamily="@font/nanum_b" />
-
-            <TextView
-                android:id="@+id/txt_add_china_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:paddingLeft="4dp"
-                android:paddingRight="4dp"
-                android:text="울산광역시 중구 우정동 274-1"
-                android:fontFamily="@font/nanum_b" />
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardview_china_4"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        app:cardCornerRadius="4dp"
-        app:cardElevation="8dp">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="8dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="5">
-
-                <TextView
-                    android:id="@+id/txt_name_china_4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_weight="5"
-                    android:paddingLeft="4dp"
-                    android:paddingRight="4dp"
-                    android:text="만리향"
-                    android:fontFamily="@font/nanum_b"
-                    android:textSize="18sp"/>
-
-                <RelativeLayout
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:layout_weight="1"
-                    android:gravity="center">
-                    <ImageView
-                        android:id="@+id/img_search_like4"
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:layout_weight="1"
-                        android:visibility="gone"
-                        android:src="@drawable/ic_baseline_star_24" />
-
-                    <ImageView
-                        android:id="@+id/img_search_like4_border"
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/ic_baseline_star_border_24" />
-
-                </RelativeLayout>
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/txt_call_china_4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:paddingLeft="4dp"
-                android:paddingRight="4dp"
-                android:text="052-281-3131"
-                android:fontFamily="@font/nanum_b"/>
-
-            <TextView
-                android:id="@+id/txt_add_china_4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:paddingLeft="4dp"
-                android:paddingRight="4dp"
-                android:text="울산광역시 북구 동대중앙로 38, 1층(호계동)"
-                android:fontFamily="@font/nanum_b" />
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
-
 
 </LinearLayout>
