@@ -11,6 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DreamRe2">
         <activity
+            android:name=".ui.search.cafe.SearchCafeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.search.bunsik.SearchBunsikActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.search.cafe.SearchChinaActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.more.MoreSettingActivity"
             android:exported="false" />
         <activity
