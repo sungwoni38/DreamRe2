@@ -141,7 +141,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.14" />
+        app:layout_constraintGuide_percent="0.12" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/h_gline_1_2"
@@ -150,27 +150,16 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.29" />
 
-<!--    <com.google.android.gms.maps.MapView-->
-<!--        android:id="@+id/mapView"-->
-<!--        android:layout_width="360dp"-->
-<!--        android:layout_height="450dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.492"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="@+id/h_gline_1_2"-->
-<!--        app:layout_constraintVertical_bias="0.221" />-->
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
-        android:layout_width="360dp"
-        android:layout_height="450dp"
+        android:layout_width="365dp"
+        android:layout_height="355dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/h_gline_1_2"
         app:layout_constraintVertical_bias="0.221" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -31,7 +31,7 @@
     </Toolbar>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardview_korea_1"
+        android:id="@+id/cardview_italy_1"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
                 android:weightSum="5">
 
                 <TextView
-                    android:id="@+id/txt_name_kor_1"
+                    android:id="@+id/txt_name_italy_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -89,7 +89,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txt_call_kor_1"
+                android:id="@+id/txt_call_italy_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -99,7 +99,7 @@
                 android:fontFamily="@font/nanum_b"/>
 
             <TextView
-                android:id="@+id/txt_add_kor_1"
+                android:id="@+id/txt_add_italy_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -109,4 +109,9 @@
                 android:fontFamily="@font/nanum_b" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
 </LinearLayout>

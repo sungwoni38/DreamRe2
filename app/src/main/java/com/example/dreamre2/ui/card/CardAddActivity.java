@@ -18,7 +18,7 @@ import com.example.dreamre2.R;
 public class CardAddActivity extends AppCompatActivity {
     EditText editMessage,edit_name, edit_birth, edit_birth2;
     EditText edit_cardNum,edit_Tel,edit_check;
-    TextView text_ok;
+    TextView text_ok, text_card_ok;
     Button btn_check,btn_go,btn_ok;
 
     @Override
@@ -26,6 +26,7 @@ public class CardAddActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_add);
 
+        text_card_ok = findViewById(R.id.text_card_ok);
         btn_check = findViewById(R.id.btn_check);
         editMessage = findViewById(R.id.edit_cardNum);
         editMessage.addTextChangedListener(new TextWatcher() {
@@ -47,34 +48,11 @@ public class CardAddActivity extends AppCompatActivity {
                 } else {
                     btn_check.setClickable(false);
                     btn_check.setBackgroundColor(Color.parseColor("#C4C4C4"));
-                    Toast.makeText(CardAddActivity.this, "카드번호 16자리를 입력하세요.", Toast.LENGTH_SHORT).show();
+                    text_card_ok.setVisibility(View.VISIBLE);
                 }
             }
         });
-        edit_name = findViewById(R.id.edit_name);
-        edit_name.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
-            }
-
-            @Override
-            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
-                if (editable.length()>0){
-                    btn_check.setClickable(true);
-                    btn_check.setBackgroundColor(Color.parseColor("#0E2F56"));
-                } else {
-                    btn_check.setClickable(false);
-                    btn_check.setBackgroundColor(Color.parseColor("#C4C4C4"));
-                    Toast.makeText(CardAddActivity.this, "이름을 입력하세요.", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
         btn_ok = findViewById(R.id.btn_ok);
         text_ok = findViewById(R.id.text_ok);
         edit_check = findViewById(R.id.edit_check);
@@ -92,8 +70,6 @@ public class CardAddActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 if (editable.length()==6){
-                    btn_check.setClickable(true);
-                    btn_check.setBackgroundColor(Color.parseColor("#0E2F56"));
                     btn_ok.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
