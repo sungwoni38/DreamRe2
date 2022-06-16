@@ -15,6 +15,15 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBxKQspOH1i-farKIaAE736KT73Tolz0f4" />
         <activity
+            android:name=".ui.search.cafe.SearchCafeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.search.bunsik.SearchBunsikActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.search.cafe.SearchChinaActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.more.MoreSettingActivity"
             android:exported="false" />
         <activity
