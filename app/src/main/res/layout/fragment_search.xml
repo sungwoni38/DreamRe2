@@ -16,7 +16,7 @@
         android:gravity="bottom">
 
         <SearchView
-            android:layout_width="390dp"
+            android:layout_width="380dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:background="@drawable/shape_stick"
@@ -43,8 +43,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="90dp"
-                android:layout_height="90dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:src="@drawable/korea" />
 
             <TextView
@@ -75,8 +75,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="90dp"
-                android:layout_height="90dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:src="@drawable/italy" />
 
             <TextView
@@ -106,8 +106,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="90dp"
-                android:layout_height="90dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:src="@drawable/japan" />
 
             <TextView
@@ -138,8 +138,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="90dp"
-                android:layout_height="90dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:src="@drawable/china" />
 
             <TextView
@@ -172,8 +172,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="90dp"
-                android:layout_height="90dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:src="@drawable/bunsik" />
 
             <TextView
@@ -204,8 +204,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="90dp"
-                android:layout_height="90dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:src="@drawable/drink" />
 
             <TextView
@@ -329,14 +329,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.39" />
+        app:layout_constraintGuide_percent="0.37" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.63" />
+        app:layout_constraintGuide_percent="0.59" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"

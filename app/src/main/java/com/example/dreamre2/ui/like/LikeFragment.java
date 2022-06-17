@@ -24,8 +24,8 @@ public class LikeFragment extends Fragment {
 
     private FragmentLikeBinding binding;
     private View view;
-    TextView txt_like_1, txt_like_2;
-    CardView cardview_like_1, cardview_like_2;
+    TextView txt_like_1, txt_like_2,txt_like_3;
+    CardView cardview_like_1, cardview_like_2,cardview_like_3;
 
     @Nullable
     @Override
@@ -47,7 +47,7 @@ public class LikeFragment extends Fragment {
             }
         });
         cardview_like_2 = view.findViewById(R.id.cardview_like_2);
-        txt_like_2 = view.findViewById(R.id.txt_like_2);
+        txt_like_2 = view.findViewById(R.id.txt_like_4);
         txt_like_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -60,7 +60,20 @@ public class LikeFragment extends Fragment {
                 cardview_like_2.setVisibility(View.GONE);
             }
         });
-
+        cardview_like_3 = view.findViewById(R.id.cardview_like_3);
+        txt_like_3 = view.findViewById(R.id.txt_like_3);
+        txt_like_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cardview_like_3.setVisibility(View.VISIBLE);
+            }
+        });
+        cardview_like_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cardview_like_2.setVisibility(View.GONE);
+            }
+        });
         return view;
     }
 
